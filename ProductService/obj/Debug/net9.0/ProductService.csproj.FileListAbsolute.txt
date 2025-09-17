@@ -165,3 +165,5 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\obj\Debug\net9.0\ref\Produ
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\obj\Debug\net9.0\ProductService.sourcelink.json
+C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

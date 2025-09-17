@@ -1,1 +1,29 @@
-".net and angular files ignore" 
+#".net and angular files ignore" 
+# ===== .NET / Visual Studio =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+out/
+
+# Logs
+*.log
+logs/
+
+# Dotnet tools
+.project
+*.db
+
+# ===== Angular =====
+/node_modules/
+/dist/
+/package-lock.json
+
+# Environment configs
+.env
+appsettings.Development.json
