@@ -24,7 +24,6 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\staticwebasse
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\staticwebassets.development.json
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\ApiGateway.csproj.Up2Date
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\ApiGateway.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\obj\Debug\net9.0\refint\ApiGateway.dll

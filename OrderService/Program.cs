@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("ApiGateway", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5200"); // Gateway URL
+    client.BaseAddress = new Uri("http://localhost:5024"); // Gateway URL
 });
 builder.Services.AddHttpClient<ProductClient>();
 var app = builder.Build();

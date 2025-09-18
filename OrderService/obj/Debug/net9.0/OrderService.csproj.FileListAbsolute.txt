@@ -166,4 +166,3 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\obj\Debug\net9.0\OrderServic
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
