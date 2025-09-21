@@ -166,3 +166,15 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\obj\Debug\net9.0\OrderServic
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Http.Polly.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Polly.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Polly.Extensions.Http.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Shared.Messages.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Shared.Messages.pdb
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\RabbitMQ.Client.dll

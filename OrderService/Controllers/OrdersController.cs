@@ -3,7 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using OrderService.Clients;
 using OrderService.Data;
 using OrderService.Models;
+using OrderService.Services;
+using Shared.Messages;
+using Shared.Messages.Events;
+using System.Net.Http.Json;
+using System.Text.Json;
+
 namespace OrderService.Controllers
+
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -12,13 +19,18 @@ namespace OrderService.Controllers
         private readonly AppDbContext _context;
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ProductClient _productClient;
+        private readonly IOrderProcessor _orderProcessor;
+        private readonly RabbitMqMessageBus _messageBus;
 
-        public OrdersController(AppDbContext context, IHttpClientFactory httpClientFactory)
+        public OrdersController(AppDbContext context, IHttpClientFactory httpClientFactory, IOrderProcessor orderProcessor, RabbitMqMessageBus messageBus)
         {
             _context = context;
             _httpClientFactory = httpClientFactory;
+            _orderProcessor = orderProcessor;
+            _messageBus = messageBus;
 
         }
+        
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
@@ -42,6 +54,8 @@ namespace OrderService.Controllers
                 Status = "Created"
             });
         }
+
+
 
         [HttpGet("with-products")]
         public async Task<IActionResult> GetOrdersWithProducts()
@@ -98,6 +112,13 @@ namespace OrderService.Controllers
             _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        [HttpPost("place")]
+        public async Task<IActionResult> PlaceOrder(int productId, int quantity)
+        {
+            await _orderProcessor.PlaceOrderAsync(productId, quantity);
+            return Ok(new { Message = "Order placed successfully" });
         }
     }
 }

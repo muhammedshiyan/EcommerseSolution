@@ -166,3 +166,6 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\obj\Debug\net9.0\UserService.
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Shared.Messages.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Shared.Messages.pdb
+C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\RabbitMQ.Client.dll

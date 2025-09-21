@@ -166,3 +166,6 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuck
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\obj\Debug\net9.0\ProductService.sourcelink.json
+C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Shared.Messages.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\Shared.Messages.pdb
+C:\PR\PR2\APISERVICE\EcommerceSolution\ProductService\bin\Debug\net9.0\RabbitMQ.Client.dll

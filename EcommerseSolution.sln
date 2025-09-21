@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore.txt = .gitignore.txt
+		dircommand.ps = dircommand.ps
 		kill-by-path.ps1 = kill-by-path.ps1
 		run-all.ps1 = run-all.ps1
 		services.ps1 = services.ps1
@@ -22,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EA4C5FBC-F022-40A8-8C94-0D5E4284B684}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A7B2C37F-5E2E-417E-958A-E551560F2A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Messages", "Shared.Messages\Shared.Messages.csproj", "{2A03E161-E63A-77AA-30B4-460DEDE3C87F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +85,18 @@ Global
 		{E90257D3-8500-4E0E-AC28-348B9280E567}.Release|x64.Build.0 = Release|Any CPU
 		{E90257D3-8500-4E0E-AC28-348B9280E567}.Release|x86.ActiveCfg = Release|Any CPU
 		{E90257D3-8500-4E0E-AC28-348B9280E567}.Release|x86.Build.0 = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|x64.Build.0 = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Debug|x86.Build.0 = Debug|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|x64.Build.0 = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +105,7 @@ Global
 		{2D9F8D5D-E8C8-4FC8-80DF-B96D2E749D8F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{65BBB16C-331C-49C6-ADC7-78852D4D12AB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FA3D901E-4996-4EF6-8233-0AC06A29D440} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2A03E161-E63A-77AA-30B4-460DEDE3C87F} = {A7B2C37F-5E2E-417E-958A-E551560F2A41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69066A44-4D78-4497-A007-0935125B52CD}

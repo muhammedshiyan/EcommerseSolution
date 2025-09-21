@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using OrderService.Clients;
 using OrderService.Data;
-
+using OrderService.Services;
+using Polly;
+using Shared.Messages;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,8 +18,23 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("ApiGateway", client =>
 {
     client.BaseAddress = new Uri("http://localhost:5024"); // Gateway URL
-});
+}).AddTransientHttpErrorPolicy(p => p.RetryAsync(3))
+.AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 builder.Services.AddHttpClient<ProductClient>();
+builder.Services.AddScoped<OrderProcessor>();
+builder.Services.AddScoped<IOrderProcessor, OrderProcessor>();
+//builder.Services.AddSingleton<IMessageBus, InMemoryMessageBus>();
+//if (builder.Environment.IsDevelopment())
+//{
+//    builder.Services.AddSingleton<IMessageBus, InMemoryMessageBus>();
+//}
+//else
+//{
+//    builder.Services.AddSingleton<IMessageBus>(_ =>
+//        new RabbitMqMessageBus("localhost", "ecommerce_exchange"));
+//}
+builder.Services.AddSingleton<IMessageBus>(_ => new RabbitMqMessageBus("localhost", "ecommerce_exchange"));
+
 var app = builder.Build();
 
 //// Configure the HTTP request pipeline.
