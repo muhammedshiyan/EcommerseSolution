@@ -20,14 +20,13 @@ namespace OrderService.Controllers
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ProductClient _productClient;
         private readonly IOrderProcessor _orderProcessor;
-        private readonly RabbitMqMessageBus _messageBus;
 
-        public OrdersController(AppDbContext context, IHttpClientFactory httpClientFactory, IOrderProcessor orderProcessor, RabbitMqMessageBus messageBus)
+        public OrdersController(AppDbContext context, IHttpClientFactory httpClientFactory, IOrderProcessor orderProcessor, ProductClient productClient)
         {
             _context = context;
             _httpClientFactory = httpClientFactory;
             _orderProcessor = orderProcessor;
-            _messageBus = messageBus;
+            _productClient = productClient;
 
         }
         

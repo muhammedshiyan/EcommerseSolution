@@ -34,7 +34,7 @@ builder.Services.AddScoped<IOrderProcessor, OrderProcessor>();
 //        new RabbitMqMessageBus("localhost", "ecommerce_exchange"));
 //}
 builder.Services.AddSingleton<IMessageBus>(_ => new RabbitMqMessageBus("localhost", "ecommerce_exchange"));
-
+builder.Services.AddLogging();
 var app = builder.Build();
 
 //// Configure the HTTP request pipeline.

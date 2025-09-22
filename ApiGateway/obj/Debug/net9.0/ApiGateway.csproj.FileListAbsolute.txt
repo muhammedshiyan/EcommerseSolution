@@ -45,3 +45,13 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Ocelot.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\ApiGateway\bin\Debug\net9.0\Serilog.Sinks.File.dll

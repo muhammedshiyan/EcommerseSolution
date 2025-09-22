@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Shared.Messages.Events
+﻿namespace Shared.Messages
 {
-    public record OrderCreated(
-        int OrderId,
-        int ProductId,
-        int Quantity,
-        decimal Price,
-        DateTime CreatedAt
-    );
+    public class OrderCreated
+    {
+        private DateTime createdAt;
+
+        public OrderCreated(int OrderId, int ProductId, int Quantity, decimal Price, DateTime CreatedAt)
+        {
+            this.OrderId = OrderId;
+            this.ProductId = ProductId;
+            this.Quantity = Quantity;
+            this.Price = Price;
+            createdAt = CreatedAt;
+        }
+
+        public int OrderId { get; }
+        public int ProductId { get; }
+        public int Quantity { get; }
+        public decimal Price { get; }
+        public DateTime CreatedAt { get; }
+    }
 }

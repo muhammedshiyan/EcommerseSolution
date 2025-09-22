@@ -178,3 +178,4 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Polly.Exten
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Shared.Messages.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\Shared.Messages.pdb
 C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\OrderService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

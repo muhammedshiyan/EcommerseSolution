@@ -169,3 +169,4 @@ C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Swashbuckle.
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Shared.Messages.dll
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\Shared.Messages.pdb
 C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\PR\PR2\APISERVICE\EcommerceSolution\UserService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
